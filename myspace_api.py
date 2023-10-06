@@ -33,7 +33,6 @@ from maintenance import MaintenanceStatus, MaintenanceStatusByProperty, Maintena
     MaintenanceRequestsByOwner, MaintenanceRequests, MaintenanceReq, MaintenanceRequestCount, MaintenanceSummaryByOwner, \
     MaintenanceSummaryAndStatusByOwner, MaintenanceQuotes, MaintenanceQuotesByUid, MaintenanceDashboard
 from purchases import Bills, AddExpense, AddRevenue
-from cron import RentPurchaseTest
 from maintenance import MaintenanceStatusByProperty, MaintenanceByProperty,  \
     MaintenanceRequestsByOwner, MaintenanceRequests, MaintenanceSummaryByOwner, \
     MaintenanceSummaryAndStatusByOwner, MaintenanceQuotes, MaintenanceQuotesByUid, MaintenanceDashboard
