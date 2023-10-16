@@ -136,8 +136,8 @@ app.config['MAIL_USERNAME'] = 'support@manifestmy.space'
 app.config['MAIL_PASSWORD'] = 'Support4MySpace'
 app.config['MAIL_DEFAULT_SENDER'] = 'support@manifestmy.space'
 
-app.config['TWILIO_ACCOUNT_SID'] = "AC075d24b60b84d71d3849efb0b860d815"
-app.config['TWILIO_AUTH_TOKEN'] = "7ea41845515ec3a9c8faae3f3614f54d"
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
+TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 # app.config['MAIL_DEBUG'] = True
