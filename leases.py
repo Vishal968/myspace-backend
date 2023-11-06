@@ -153,7 +153,7 @@ class LeaseApplication(Resource):
             print(data['tenant_uid'])
             tenant_uid = data.get('tenant_uid')
             print(tenant_uid)
-            del data['tenant_uid']
+            # del data['tenant_uid']
 
 
         # ApplicationStatus = LeaseApplication.get(self, tenant_uid, data.get('lease_property_id'))
